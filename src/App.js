@@ -1,6 +1,6 @@
 import { Fragment, useEffect } from 'react';
 import SearchBar from './components/layout/SearchBar';
-import Logs from './components/Logs';
+import Logs from './components/logs/Logs';
 
 import './App.css';
 import 'materialize-css/dist/css/materialize.min.css';
