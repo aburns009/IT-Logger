@@ -1,13 +1,6 @@
 {
   "logs": [
     {
-      "message": "1122 wireless down",
-      "attention": true,
-      "tech": "John Doe",
-      "date": "2021-02-22T22:52:14.052Z",
-      "id": 3
-    },
-    {
       "message": "changed network card in server 007",
       "attention": false,
       "tech": "John Doe",
@@ -16,10 +9,17 @@
     },
     {
       "id": 5,
-      "message": "Fexed monitor at station 002 is down",
+      "message": "Fixed monitor at station 002 is down",
       "attention": false,
       "tech": "Sam Smith",
-      "date": "2021-02-26T18:53:42.383Z"
+      "date": "2021-02-26T22:44:43.800Z"
+    },
+    {
+      "message": "Network error at main server",
+      "attention": true,
+      "tech": "Jill  Smith",
+      "date": "2021-02-26T22:45:28.514Z",
+      "id": 6
     }
   ],
   "techs": [
@@ -37,6 +37,11 @@
       "id": 3,
       "firstName": "Sara",
       "lastName": "Wilson"
+    },
+    {
+      "firstName": "Jill ",
+      "lastName": "Smith",
+      "id": 5
     }
   ]
 }
